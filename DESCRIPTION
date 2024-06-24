@@ -1,0 +1,13 @@
+Package: capesData
+Title: Data from CAPES Active Scholarships in International Mobility Programs
+Version: 0.0.0.9000
+Authors@R: 
+    person("Leonardo", "Biazoli", email = "leonardobiazoli19@gmail.com", role = c("aut", "cre"))
+Description: The CAPES database refers to international mobility programs funded by scholarships abroad (time: 2010-2019).
+License: file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Depends: 
+    R (>= 2.10)
+LazyData: true
