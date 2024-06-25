@@ -1,9 +1,9 @@
 Package: capesData
-Title: Data from CAPES Active Scholarships in International Mobility Programs
+Title: Data on Scholarships in CAPES International Mobility Programs
 Version: 0.0.0.9000
 Authors@R: 
     person("Leonardo", "Biazoli", email = "leonardobiazoli19@gmail.com", role = c("aut", "cre"))
-Description: The CAPES database refers to international mobility programs funded by scholarships abroad (time: 2010-2019).
+Description: Information on activities to promote scholarships in Brazil and abroad for international mobility programs, recorded in Capes' computerized payment systems. The CAPES database refers to international mobility programs for the period from 2010 to 2019.
 License: file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
