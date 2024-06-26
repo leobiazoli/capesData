@@ -61,7 +61,7 @@ A data frame with 146036 rows and 51 columns:
 }
 }
 \source{
-Created by Leonardo Biazoli with data provided by CAPES/BRAZIL (https://dadosabertos.capes.gov.br/dataset/)
+Created by Leonardo Biazoli with data provided by CAPES/BRAZIL (https://dadosabertos.capes.gov.br/dataset/).
 }
 \usage{
 capesData
