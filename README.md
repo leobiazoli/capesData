@@ -23,7 +23,7 @@ data(package = 'capesData')
 
 
 One is called `capesData`, and is a simplified version of the raw data; see `?capesData` for more info:
-```
+```{r}
 head(capesData)
 ```
 
