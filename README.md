@@ -7,7 +7,7 @@
 <!-- badges: end -->
 
 <figure>
-<img src="man/figures/lg6.png" alt="Logo" />
+<img src="man/figures/logo.png" alt="capesData" />
 <figcaption aria-hidden="true">Logo</figcaption>
 </figure>
 
