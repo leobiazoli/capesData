@@ -6,7 +6,10 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-![](man/figures/logo.png)
+<figure align="right">
+<img src="man/figures/logo.png" alt="capesData" />
+<figcaption aria-hidden="true"></figcaption>
+</figure>
 
 The goal of capesData is to provide an attractive dataset for exploring
 and visualizing data on the International Mobility Programs funded by
