@@ -6,7 +6,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-![](man/figures/logo.png#right)
+![](man/figures/logo.png#center)
 
 The goal of capesData is to provide an attractive dataset for exploring
 and visualizing data on the International Mobility Programs funded by
