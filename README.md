@@ -6,6 +6,11 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
+<figure>
+<img src="man/figures/lg6.png" alt="Logo" />
+<figcaption aria-hidden="true">Logo</figcaption>
+</figure>
+
 The goal of capesData is to provide an attractive dataset for exploring
 and visualizing data on the International Mobility Programs funded by
 CAPES/Brazil. The CAPES database refers to international mobility
