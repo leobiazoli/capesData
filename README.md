@@ -1,12 +1,10 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# capesData
+# capesData: Data on Scholarships in CAPES International Mobility Programs
 
 <!-- badges: start -->
 <!-- badges: end -->
-
-capesData: Data on Scholarships in CAPES International Mobility Programs
 
 The goal of capesData is to provide an attractive dataset for exploring
 and visualizing data on the International Mobility Programs funded by

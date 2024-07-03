@@ -13,12 +13,10 @@ knitr::opts_chunk$set(
 )
 ```
 
-# capesData
+# capesData: Data on Scholarships in CAPES International Mobility Programs
 
 <!-- badges: start -->
 <!-- badges: end -->
-
-capesData: Data on Scholarships in CAPES International Mobility Programs
 
 The goal of capesData is to provide an attractive dataset for exploring and visualizing data on the International Mobility Programs funded by CAPES/Brazil. The CAPES database refers to international mobility programs for the period from 2010 to 2019.
 
