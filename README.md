@@ -1,20 +1,16 @@
-
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# capesData: Data on Scholarships in CAPES International Mobility Programs <img src="man/figures/logo.png" align="right" alt="Hex logo for package" width="120" />
+# capesData: Data on Scholarships in CAPES International Mobility Programs <img src="man/figures/logo.png" alt="Hex logo for package" align="right" width="120"/>
 
 <!-- badges: start -->
+
 <!-- badges: end -->
 
-The goal of capesData is to provide an attractive dataset for exploring
-and visualizing data on the International Mobility Programs funded by
-CAPES/Brazil. The CAPES database refers to international mobility
-programs for the period from 2010 to 2019.
+The goal of capesData is to provide an attractive dataset for exploring and visualizing data on the International Mobility Programs funded by CAPES/Brazil. The CAPES database refers to international mobility programs for the period from 2010 to 2019.
 
 ## Installation
 
-You can install the development version of capesData from
-[GitHub](https://github.com/) with:
+You can install the development version of capesData from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
@@ -23,11 +19,7 @@ devtools::install_github("leobiazoli/capesData")
 
 ## About the data
 
-Data were collected from the CAPES/Brazil (Coordenação de
-Aperfeiçoamento de Pessoal de Nível Superior)
-[https://dadosabertos.capes.gov.br/dataset/](open%20data%20portal),
-referring to the international mobility programs from 2010 to 2019
-funded by CAPES/Brazil.
+Data were collected from the CAPES/Brazil (Coordenação de Aperfeiçoamento de Pessoal de Nível Superior) [https://dadosabertos.capes.gov.br/dataset/](open%20data%20portal), referring to the international mobility programs from 2010 to 2019 funded by CAPES/Brazil.
 
 The `capesData` package contains two datasets.
 
@@ -35,15 +27,13 @@ The `capesData` package contains two datasets.
 library(capesData)
 ```
 
-We will also load the `tidyverse` package for pretty printing of tibbles
-and some code examples.
+We will also load the `tidyverse` package for pretty printing of tibbles and some code examples.
 
 ``` r
 library(tidyverse)
 ```
 
-One is called `capesData`, and is a simplified version of the raw data;
-see `?capesData` for more info:
+One is called `capesData`, and is a simplified version of the raw data; see `?capesData` for more info:
 
 ``` r
 capesData
@@ -67,8 +57,7 @@ capesData
 #> #   NM_AREA_AVALIACAO <chr>, NM_PROGRAMA <chr>
 ```
 
-The second dataset is `capesData_raw`, and contains all the variables
-and original names as downloaded; see `?capesData_raw` for more info.
+The second dataset is `capesData_raw`, and contains all the variables and original names as downloaded; see `?capesData_raw` for more info.
 
 ``` r
 capesData_raw
@@ -131,6 +120,6 @@ capesData |>
 #> 10 <NA>                         5239
 ```
 
-## Additional data use information
+## References			
 
-## References
+CAPES. (n.d.). “Coordenação de Aperfeiçoamento de Pessoal de Nível Superior.” Retrieved July 07, 2024, from \<https://dadosabertos.capes.gov.br/dataset/\>.
