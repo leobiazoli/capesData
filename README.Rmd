@@ -50,13 +50,13 @@ library(capesData)
 One is called `capesData`, and is a simplified version of the raw data; see `?capesData` for more info:
 
 ```{r}
-head(capesData)
+capesData
 ```
 
 The second dataset is `capesData_raw`, and contains all the variables and original names as downloaded; see `?capesData_raw` for more info.
 
 ```{r}
-head(capesData_raw)
+capesData_raw
 ```
 
 ## Examples
