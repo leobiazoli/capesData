@@ -45,7 +45,6 @@ The `capesData` package contains two datasets.
 
 ```{r}
 library(capesData)
-data(package = 'capesData')
 ```
 
 One is called `capesData`, and is a simplified version of the raw data; see `?capesData` for more info:
