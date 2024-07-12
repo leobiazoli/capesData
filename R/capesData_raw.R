@@ -1,0 +1,64 @@
+#' Data on Scholarships in CAPES International Mobility Programs
+#'
+#' The goal of capesData is to provide an attractive dataset for exploring and visualizing data on the International Mobility Programs funded by CAPES/Brazil. The CAPES database refers to international mobility programs for the period from 2010 to 2019.
+#'
+#' @format A data frame with 146036 rows and 51 columns:
+#' \describe{
+#' \item{ID_PROCESSO}{Number of concession process.}
+#' \item{NM_NIVEL}{Type of scholarship.}
+#' \item{AN_INICIO}{Year in which the scholarship begins.}
+#' \item{ME_INICIO}{Month in which the scholarship begins.}
+#' \item{AN_FIM}{End year of the scholarship.}
+#' \item{ME_FIM}{End month of the scholarship.}
+#' \item{NM_IES_ORIGEM_PRINCIPAL_DA}{Name of the beneficiary's home institution.}
+#' \item{NM_UF_IES_ORIGEM}{Name of the Federation State of the beneficiary's institution of origin.}
+#' \item{NM_IES_ESTUDO_PRINCIPAL_DA}{Name of the beneficiary's study institution.}
+#' \item{NM_PAIS_IES_ESTUDO}{Country of destination of the beneficiary.}
+#' \item{NM_GRANDE_AREA}{Field of knowledge.}
+#' \item{NM_AREA_CONHECIMENTO}{Area of knowledge classified by CAPES.}
+#' \item{NM_AREA_AVALIACAO}{Area of project evaluation.}
+#' \item{NM_PROGRAMA}{Program Name.}
+#' \item{CD_MOEDA}{Functional payment currency.}
+#' \item{VL_TOTAL_RECEBIDO_MOEDA}{Total amount received in functional currency.}
+#' \item{VL_AUX_DESLOCAMENTO}{Amount received as travel assistance.}
+#' \item{VL_ADICIONAL_LOCALIDADE}{Amount received as a locality bonus.}
+#' \item{VL_ADICIONAL_DEPENDENTE}{Additional amount paid to full doctoral scholarship holders with registered dependents.}
+#' \item{VL_BOLSA}{Amount received as a scholarship/fees.}
+#' \item{VL_TAXA_ESCOLAR}{Amount received for tuition and fees.}
+#' \item{VL_DIF_AUX_DESLOCAMENTO}{Amount received as differences/reimbursements for travel expenses that were performed.}
+#' \item{VL_DIF_SEGURO_SAUDE}{Amount received as differences/reimbursements for expenses performed with health insurance.}
+#' \item{VL_SEGURO_SAUDE}{Amount received as health insurance.}
+#' \item{VL_TAXA_ESCOLAR_VALOR_P}{Amount received for small tuition and fees.}
+#' \item{VL_OUTROS_CREDITOS}{Amount received for the payment of extraordinary expenses.}
+#' \item{VL_DIF_MENSALIDADE}{Amount received as differences/reimbursements for expenses performed with tuition.}
+#' \item{VL_OUTROS_DEBITOS}{Amount received as differences/refunds for other debts.}
+#' \item{VL_DIF_DEPENDENTES}{Amount received as differences/reimbursements for expenses performed with additional dependent.}
+#' \item{VL_MENSALIDADE}{Amount received as a stipend.}
+#' \item{VL_AUX_INSTALACAO}{Amount received as installation aid.}
+#' \item{VL_AUX_SEGURO_SAUDE_ANUAL}{Amount received in annual installments as health insurance.}
+#' \item{VL_MENSALIDADES_AGENDADAS}{Amount received as scheduled tuition.}
+#' \item{VL_REEMBOLSO_TAXA_ESCOLAR}{Amount received for the refund of tuition and fees paid by the beneficiary.}
+#' \item{VL_AUX_MORADIA}{Amount received as housing allowance.}
+#' \item{VL_DIF_AUX_INSTALACAO}{Amount received as differences/refunds for installation aid.}
+#' \item{VL_REEMBOLSO_PASSAGEM_AEREA}{Amount received as differences/refunds for airfare.}
+#' \item{VL_AUX_MATERIAL_DIDATICO}{Amount received as aid for teaching materials, paid under the Ciencia Sem Fronteiras Program.}
+#' \item{VL_AUX_SEGURO_SAUDE}{Amount received as health insurance benefit.}
+#' \item{VL_AJUDA_CUSTO_CAPES_SETEC}{Amount received as a subsistence allowance, paid under the CAPES/SETEC program.}
+#' \item{VL_MENSALIDADE_DEMANDA}{Amount received as a monthly fee on demand.}
+#' \item{VL_AUX_DESLOCAMENTO_DEMANDA}{Amount received as travel allowance on demand.}
+#' \item{VL_MENSALIDADE_LIC_MATERNIDADE}{Amount received as tuition during maternity leave by the scholarship holder during the duration of the process.}
+#' \item{VL_ESCOLA_ALTOS_ESTUDOS}{Amount received as a scholarship under the Escola de Altos Estudos program.}
+#' \item{VL_AJUDA_CUSTO}{Amount received as a subsistence allowance.}
+#' \item{VL_AUX_INSTALACAO_DEPENDENTE}{Additional amount received as installation aid, paid to full doctoral scholarship holders with registered dependents.}
+#' \item{VL_AUX_SEGURO_SAUDE_DEPENDENTE}{Additional amount received as health insurance aid, paid to full doctoral scholarship holders with registered dependents.}
+#' \item{VL_AJUDA_CUSTO_MTUR}{Amount received as a subsistence allowance, paid under the CAPES/MTUR program.}
+#' \item{VL_AUX_DESLOCAMENTO_RETORNO_D}{Amount received as travel allowance for return.}
+#' \item{VL_AUX_SEGURO_SAUDE_DEMANDA}{Amount received as health insurance on demand.}
+#' \item{VL_AUX_DESLOCAMENTO_PESQUISA}{Amount received as travel allowance for research.}
+#' }
+#' @source Created by Leonardo Biazoli with data provided by CAPES/BRAZIL <https://dadosabertos.capes.gov.br/dataset/>.
+#' @seealso [capesData]
+#'
+#' @examples
+#' capesData_raw
+"capesData_raw"
