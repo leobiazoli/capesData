@@ -15,16 +15,13 @@ knitr::opts_chunk$set(
   fig.retina = 2,
   fig.align = 'center'
 )
-library(tidyverse)
 ```
 
-# capesData: Data on Scholarships in CAPES International Mobility Programs
+# capesData: Data on Scholarships in CAPES International Mobility Programs <img src="man/figures/logo.png" align="right" alt="Hex logo for package" width="120" />
 
 <!-- badges: start -->
 
 <!-- badges: end -->
-
-![](man/figures/logo.png)
 
 The goal of capesData is to provide an attractive dataset for exploring and visualizing data on the International Mobility Programs funded by CAPES/Brazil. The CAPES database refers to international mobility programs for the period from 2010 to 2019.
 
@@ -47,6 +44,13 @@ The `capesData` package contains two datasets.
 library(capesData)
 ```
 
+We will also load the `tidyverse` package for pretty printing of tibbles and some code examples.
+
+```{r}
+#| message: false
+library(tidyverse)
+```
+
 One is called `capesData`, and is a simplified version of the raw data; see `?capesData` for more info:
 
 ```{r}
@@ -61,12 +65,11 @@ capesData_raw
 
 ## Examples
 
-You can find these and more code examples for exploring `capesData` in vignette("examples").
+You can find these and more code examples for exploring `capesData` in `vignette("examples")`.
 
 For example:
 
 ```{r}
-library(tidyverse)
 capesData |>
   count(NM_NIVEL)
 

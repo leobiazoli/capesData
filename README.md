@@ -1,12 +1,10 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# capesData: Data on Scholarships in CAPES International Mobility Programs
+# capesData: Data on Scholarships in CAPES International Mobility Programs <img src="man/figures/logo.png" align="right" alt="Hex logo for package" width="120" />
 
 <!-- badges: start -->
 <!-- badges: end -->
-
-![](man/figures/logo.png)
 
 The goal of capesData is to provide an attractive dataset for exploring
 and visualizing data on the International Mobility Programs funded by
@@ -35,6 +33,13 @@ The `capesData` package contains two datasets.
 
 ``` r
 library(capesData)
+```
+
+We will also load the `tidyverse` package for pretty printing of tibbles
+and some code examples.
+
+``` r
+library(tidyverse)
 ```
 
 One is called `capesData`, and is a simplified version of the raw data;
@@ -92,12 +97,11 @@ capesData_raw
 ## Examples
 
 You can find these and more code examples for exploring `capesData` in
-vignette(“examples”).
+`vignette("examples")`.
 
 For example:
 
 ``` r
-library(tidyverse)
 capesData |>
   count(NM_NIVEL)
 #> # A tibble: 44 × 2
