@@ -96,11 +96,6 @@ capesData_raw
 
 ## Examples
 
-You can find these and more code examples for exploring `capesData` in
-`vignette("examples")`.
-
-For example:
-
 ``` r
 capesData |>
   count(NM_NIVEL)
