@@ -17,7 +17,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# capesData: Data on Scholarships in CAPES International Mobility Programs <img src="man/figures/logo.png" align="right" alt="Hex logo for package" width="120" />
+# capesData: Data on Scholarships in CAPES International Mobility Programs <img src="man/figures/logo.png" alt="Hex logo for package" align="right" width="120"/>
 
 <!-- badges: start -->
 
@@ -73,6 +73,6 @@ capesData |>
   count(NM_GRANDE_AREA)
 ```
 
-## Additional data use information
-
 ## References
+
+CAPES. (n.d.). “Coordenação de Aperfeiçoamento de Pessoal de Nível Superior.” Retrieved July 07, 2024, from <https://dadosabertos.capes.gov.br/dataset/>.
