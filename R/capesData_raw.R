@@ -56,9 +56,9 @@
 #' \item{**VL_AUX_SEGURO_SAUDE_DEMANDA**}{Amount received as health insurance on demand.}
 #' \item{**VL_AUX_DESLOCAMENTO_PESQUISA**}{Amount received as travel allowance for research.}
 #' }
-#' @source Created by Leonardo Biazoli with data provided by CAPES/BRAZIL (https://dadosabertos.capes.gov.br/dataset/).
+#' @source Created by Leonardo Biazoli with data provided by CAPES/BRAZIL <https://dadosabertos.capes.gov.br/dataset/>.
+#' @seealso [capesData]
 #'
 #' @examples
-#' data(capesData)
-#' data(capesData_raw)
-"capesData"
+#' capesData_raw
+"capesData_raw"
