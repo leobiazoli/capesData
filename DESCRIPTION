@@ -6,7 +6,7 @@ Authors@R: c(
     person("Mine", "\u00C7etinkaya-Rundel", email = "cetinkaya.mine@gmail.com", role = "aut", comment = c(ORCID = "0000-0001-6452-2420")),
     person("Eric", "Fernandes de Mello Araujo", role = "aut", comment = c(ORCID = "0000-0003-4263-9075")),
     person("Izabela R.", "Cardoso de Oliveira", role = "aut", comment = c(ORCID = "0000-0003-3254-2827"))
-)
+    )
 Description: Information on activities to promote scholarships in Brazil and abroad for international mobility programs, recorded in Capes' computerized payment systems. The CAPES database refers to international mobility programs for the period from 2010 to 2019.
 License: file LICENSE
 Encoding: UTF-8
