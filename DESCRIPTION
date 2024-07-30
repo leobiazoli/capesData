@@ -7,7 +7,6 @@ Authors@R: c(
     person(given = "Eric", family = "Fernandes de Mello Araujo", role = "aut", comment = c(ORCID = "0000-0003-4263-9075")),
     person(given = "Izabela R.", family = "Cardoso de Oliveira", role = "aut", comment = c(ORCID = "0000-0003-3254-2827"))
 )
-Maintainer: Leonardo Biazoli <leonardobiazoli19@gmail.com>
 Description: Information on activities to promote scholarships in Brazil and abroad for international mobility programs, recorded in Capes' computerized payment systems. The CAPES database refers to international mobility programs for the period from 2010 to 2019.
 License: file LICENSE
 Encoding: UTF-8
