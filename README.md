@@ -120,6 +120,6 @@ capesData |>
 #> 10 <NA>                         5239
 ```
 
-## References			
+## References
 
-CAPES. (n.d.). “Coordenação de Aperfeiçoamento de Pessoal de Nível Superior.” Retrieved July 07, 2024, from \<https://dadosabertos.capes.gov.br/dataset/\>.
+CAPES. (n.d.). “Coordenacao de Aperfeicoamento de Pessoal de Nivel Superior.” Retrieved July 07, 2024, from \<https://dadosabertos.capes.gov.br/dataset/\>.
