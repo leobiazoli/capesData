@@ -6,7 +6,7 @@
 
 <!-- badges: end -->
 
-The goal of capesData is to provide an attractive dataset for exploring and visualizing data on the International Mobility Programs funded by CAPES/Brazil. The CAPES database refers to international mobility programs for the period from 2010 to 2019.
+The goal of capesData is to provide an attractive dataset for exploring and visualizing data on the International Mobility Programs funded by CAPES/Brazil (Coordenação de Aperfeiçoamento de Pessoal de Nível Superior). The CAPES (Coordenação de Aperfeiçoamento de Pessoal de Nível Superior) database refers to international mobility programs for the period from 2010 to 2019.
 
 ## Installation
 
@@ -19,7 +19,7 @@ devtools::install_github("leobiazoli/capesData")
 
 ## About the data
 
-Data were collected from the CAPES/Brazil (Coordenação de Aperfeiçoamento de Pessoal de Nível Superior) [https://dadosabertos.capes.gov.br/dataset/](open%20data%20portal), referring to the international mobility programs from 2010 to 2019 funded by CAPES/Brazil.
+Data were collected from the CAPES/Brazil (Coordenação de Aperfeiçoamento de Pessoal de Nível Superior) <https://dadosabertos.capes.gov.br/dataset/>, referring to the international mobility programs from 2010 to 2019 funded by the Brazilian government.
 
 The `capesData` package contains two datasets.
 
@@ -122,4 +122,4 @@ capesData |>
 
 ## References
 
-CAPES. (n.d.). “Coordenacao de Aperfeicoamento de Pessoal de Nivel Superior.” Retrieved July 07, 2024, from \<https://dadosabertos.capes.gov.br/dataset/\>.
+CAPES. (n.d.). “Coordenacao de Aperfeicoamento de Pessoal de Nivel Superior.” Retrieved July 07, 2024, from <https://dadosabertos.capes.gov.br/dataset/>.
