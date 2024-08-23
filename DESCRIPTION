@@ -7,7 +7,7 @@ Authors@R: c(
     person("Eric", "Fernandes de Mello Araujo", role = "aut", comment = c(ORCID = "0000-0003-4263-9075")),
     person("Izabela R.", "Cardoso de Oliveira", role = "aut", comment = c(ORCID = "0000-0003-3254-2827"))
     )
-Description: Information on activities to promote scholarships in Brazil and abroad for international mobility programs, recorded in Capes' computerized payment systems. The CAPES database refers to international mobility programs for the period from 2010 to 2019.
+Description: Information on activities to promote scholarships in Brazil and abroad for international mobility programs, recorded in Capes' computerized payment systems. The CAPES database refers to international mobility programs for the period from 2010 to 2019 <https://dadosabertos.capes.gov.br/dataset/>.
 License: CC0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
